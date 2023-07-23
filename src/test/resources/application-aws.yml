@@ -1,0 +1,11 @@
+cloud:
+  aws:
+    credentials:
+      accessKey: AKIA2XY53QPHE2U6HN5L       # AWS IAM AccessKey 적기
+      secretKey: zzm4oUsLgxT11ZuIcRVCZ2tAz/jAK3Dl0/XnV0kX   # AWS IAM SecretKey 적기
+    s3:
+      bucket: developer-desk
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false

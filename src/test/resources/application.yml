@@ -1,0 +1,19 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
+    properties:
+      hibernate:
+        format_sql: true #To beautify or pretty print the SQL
+        show_sql: true #show sql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/desktop?serverTimezone=Asia/Seoul
+    username: root
+    password: 7351

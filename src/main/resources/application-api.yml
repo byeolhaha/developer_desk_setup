@@ -1,0 +1,6 @@
+api:
+  shop:
+    url: https://openapi.naver.com/v1/search/shop.json
+    id: 1rOVKLSoyABVGef62aTL
+    secret: dcc0eWBkNm
+
